@@ -49,15 +49,15 @@ bool BasicTutorial6::go(){
 		return false;
 	}
 	//窗体创建一：
-	//mWindow = mRoot->initialise(true, "BasicTutorial6 Render Window");
+	mWindow = mRoot->initialise(true, "BasicTutorial6 Render Window");
 	//窗体创建二:
-	mRoot->loadPlugin("RenderSystem_Direct3D9");
-	Ogre::RenderSystem *rs = mRoot->getRenderSystemByName("Direct3D9 Rendering Subsystem");
-	// or use "OpenGL Rendering Subsystem"
-	mRoot->setRenderSystem(rs);
-	rs->setConfigOption("Full Screen", "Yes");
-	//rs->setConfigOption("Video Mode", "800 x 600 @ 32-bit colour");
-	mRoot->initialise(true);
+	//mRoot->loadPlugin("RenderSystem_Direct3D9");
+	//Ogre::RenderSystem *rs = mRoot->getRenderSystemByName("Direct3D9 Rendering Subsystem");
+	//// or use "OpenGL Rendering Subsystem"
+	//mRoot->setRenderSystem(rs);
+	//rs->setConfigOption("Full Screen", "Yes");
+	////rs->setConfigOption("Video Mode", "800 x 600 @ 32-bit colour");
+	//mRoot->initialise(true);
 	// Do not add this to the application
 	/*窗体创建
 	mRoot->initialise(false);
