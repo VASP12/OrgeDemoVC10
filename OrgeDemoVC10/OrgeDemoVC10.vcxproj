@@ -88,6 +88,9 @@
     <ClInclude Include="src\BasicTutorial4.h" />
     <ClInclude Include="src\BasicTutorial6.h" />
     <ClInclude Include="src\BasicTutorial7.h" />
+    <ClInclude Include="src\BasicTutorial8.h" />
+    <ClInclude Include="src\IntermediateTutorial1.h" />
+    <ClInclude Include="src\ITutorial02.h" />
     <ClInclude Include="src\stdafx.h" />
     <ClInclude Include="src\TutorialApplication.h" />
   </ItemGroup>
@@ -99,6 +102,9 @@
     <ClCompile Include="src\BasicTutorial4.cpp" />
     <ClCompile Include="src\BasicTutorial6.cpp" />
     <ClCompile Include="src\BasicTutorial7.cpp" />
+    <ClCompile Include="src\BasicTutorial8.cpp" />
+    <ClCompile Include="src\IntermediateTutorial1.cpp" />
+    <ClCompile Include="src\ITutorial02.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\OgreSample.cpp" />
     <ClCompile Include="src\TutorialApplication.cpp" />
